@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './style.css';
 import { Footer } from '../../components';
 import { logo, SeanPic, AmirPic, CharlesPic } from './imports.js';
@@ -61,7 +62,10 @@ const AboutUs = () => {
           <br /><br />
           If you are interested in one of the listed projects and believe you are qualified, 
           you can either go directly to the Apply page by pressing 
-          &nbsp; <a href="/Codelaboration/apply"><Badge bg="success">Apply Here </Badge></a>!
+          &nbsp; 
+          <NavLink to="/Codelaboration/apply" className=".about-us__link" onClick={() => window.scrollTo(0, 0)}>
+            <Badge bg="success">Apply Here </Badge>
+          </NavLink>!
           <br /><br />
           If you are a project founder who wishes to recruit talented programmers, consider listing your 
           project on our website by contacting us either through the Apply page, our Instagram 

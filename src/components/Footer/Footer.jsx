@@ -22,9 +22,9 @@ const Footer = () => {
         </div>
 
         <p>
-          Copyright © 2022 Codelaboration Exec. 
+          Copyright © 2023 Codelaboration Exec. 
           <br />All Rights Reserved.
-          <br />Last Updated on August 17th, 2022.
+          <br />Last Updated on January 1st, 2023.
         </p>
       </div>
     </>

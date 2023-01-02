@@ -133,6 +133,16 @@
   border-radius: 100%;
 }  
 
+.project__link {
+  margin-bottom: 0;
+}
+
+.project__container-status p {
+  font-size: var(--font-size__text);
+  color: white;
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 300px) {
   .carousel-indicators button {
     display: none;

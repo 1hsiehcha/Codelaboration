@@ -68,3 +68,7 @@
   margin-bottom: min(3vw, 2rem);
   margin-top: min(15vw, 2rem);
 }
+
+.about_us__link {
+  font-size: var(--font-size__text);
+}

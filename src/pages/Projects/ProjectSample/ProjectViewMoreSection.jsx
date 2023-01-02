@@ -1,3 +1,5 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 import Carousel from 'react-bootstrap/Carousel';
 import '../projects.css';
@@ -28,11 +30,9 @@ const ProjectSectionTemplate = (props) => {
             &nbsp;
             <div className="project__container-status">
               {props.availability ? (
-                <Badge bg="success">
-                  <a href="/Codelaboration/apply">
-                    Apply Here
-                  </a>
-                </Badge>
+                <NavLink to="/Codelaboration/apply" className=".project__link" onClick={() => window.scrollTo(0, 0)}>
+                  <Badge bg="success"><p>Apply Here</p></Badge>
+                </NavLink>
               ) : (
                 <Badge bg="danger">
                   Archived
