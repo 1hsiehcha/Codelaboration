@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Codelaboration/static/css/main.48b4adb7.css",
+    "main.js": "/Codelaboration/static/js/main.b1c69ac8.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Codelaboration/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Sean.png": "/Codelaboration/static/media/Sean.3b5f26e07be891735c22.png",
+    "static/media/Background.png": "/Codelaboration/static/media/Background.ce5c7fc0526bf302d383.png",
+    "static/media/Amir.png": "/Codelaboration/static/media/Amir.e6a3f43207f5c2b9d794.png",
+    "static/media/Cabin-Bold.ttf": "/Codelaboration/static/media/Cabin-Bold.6d8418d109bed523706d.ttf",
+    "static/media/DMSans-Medium.ttf": "/Codelaboration/static/media/DMSans-Medium.150680530af9dd9fd00b.ttf",
+    "static/media/logo.png": "/Codelaboration/static/media/logo.6a5a5504bdd08468b5d6.png",
+    "static/media/Email.png": "/Codelaboration/static/media/Email.57d0a01c939b98446671.png",
+    "static/media/Instagram.png": "/Codelaboration/static/media/Instagram.a5876b79bca37d264116.png",
+    "static/media/MenuBar.png": "/Codelaboration/static/media/MenuBar.f0e97d7b65bfac800282.png",
+    "index.html": "/Codelaboration/index.html",
+    "main.48b4adb7.css.map": "/Codelaboration/static/css/main.48b4adb7.css.map",
+    "main.b1c69ac8.js.map": "/Codelaboration/static/js/main.b1c69ac8.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Codelaboration/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48b4adb7.css",
+    "static/js/main.b1c69ac8.js"
+  ]
+}
