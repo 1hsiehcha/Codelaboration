@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url('./assets/fonts/DMSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: "Raleway Bold";
+  src: url('./assets/fonts/Cabin-Bold.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway Bold', sans-serif !important;
+  font-weight: normal !important;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+:root {
+  --font-size__header: min(9vw, 4rem);
+  --font-size__sub_header: min(8vw, 3.2rem);
+  --font-size__title: min(5vw, 2rem);
+  --font-size__text: min(4.4vw, 1.2rem);
+  --font-size__footer: min(4.8vw, 1.35rem);
+
+  --color-text__home: #fdfcdc;
+  --color-text1: #fdfcdc;
+  --color-text-description: #fdfcdc;
+}

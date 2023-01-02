@@ -1,0 +1,130 @@
+.navbar {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  background: #0b4b74;
+  padding: min(6.5vw, 1.6rem) min(9vw, 4.2rem);
+  
+  /* Fixed Navbar */
+  overflow: visible;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 15;
+}
+
+.navbar p {
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.navbar__links {
+  text-decoration: none;
+  color: rgb(225, 223, 223);
+  font-size: var(--font-size__title);
+  cursor: pointer;
+  padding: 0.25rem;
+  transition: 0.5s;
+}
+
+.navbar__links:hover, .navbar__links:active, .navbar__links:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar span {
+  color: rgb(225, 223, 223);
+  background-color: #f07167;
+  border-radius: min(1vw, 0.5rem);
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: rgb(225, 223, 223);
+  margin-bottom: 0;
+  transition: 0.5s;
+}
+
+.navbar span:hover {
+  color: #fff;
+  border-color: #ffffff;
+}
+
+.navbar h3 {
+  color: var(--color-text1);
+  font-size: var( --font-size__title);
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+} 
+
+.navbar h3 img {
+  width: min(10vw, 3rem);
+  border-radius: 100%;
+  vertical-align: middle;
+  /* prevents people from saving the image */
+  pointer-events: none; 
+  margin-bottom: 0;
+}
+
+.navbar__desktop {
+  display: flex;
+  flex-direction: row;
+  vertical-align: bottom;
+  margin-bottom: 0;
+}
+
+.navbar__desktop p {
+  margin-right: min(5vw, 2rem);
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.navbar__mobile_menu {
+  display: none;
+  position: sticky;
+  vertical-align: middle;
+  margin-bottom: 0;
+  line-height: min(5vw, 1rem);
+}
+
+.navbar__mobile_menu img {
+  cursor: pointer;
+  width: min(8vw, 2.5rem);
+  vertical-align: top;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.navbar__mobile_menu-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  position: absolute;
+  background: gray;
+  padding-top: min(9vw, 3rem); padding-bottom: min(9vw, 3rem);
+  padding-left: min(9vw, 3rem); padding-right: 0;
+  border-radius: 5%;
+  right: 0;
+  width: 650%;
+}
+
+.navbar__mobile_menu-box p {
+  display: flex;
+  flex-direction: column;
+  vertical-align: center;
+  margin-bottom: 0;
+  margin-right: min(1vw, 0.3rem);
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar__desktop {
+    display: none;
+  }
+
+  .navbar__mobile_menu {
+    display: inline-block;
+  }
+}

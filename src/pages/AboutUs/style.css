@@ -1,0 +1,70 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-home);
+  min-height: 100vh;
+}
+
+.about-us__title {
+  text-align: center;
+}
+
+.about-us__title h1 {
+  text-align: left;
+  font-size: var(--font-size__header);
+  color: var(--color-text__home);
+  margin-bottom: 0;
+}
+
+.about-us__description {
+  margin-top: min(10vw, 3rem);
+  margin-bottom: 0;
+}
+
+.about-us__description p {
+  font-size: var(--font-size__text);
+  color: var(--color-text__home);
+  margin-bottom: 0;
+}
+
+.about-us__description-team {
+  margin-top: min(20vw, 3rem); /* UI Improvement */
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+}
+
+.about-us__description-team .about-us__member {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.about-us__member img {
+  max-block-size: min(25vw, 10rem);
+  border-radius: 100%;
+  box-shadow: 0 0 1rem min(0.6vw, 0.2rem) #10fb18;
+  /* prevents people from saving images */
+  pointer-events: none; 
+  margin-top: min(5vw, 1rem);
+  margin-bottom: min(5vw, 1rem);
+}
+
+.about-us__member:nth-child(3n + 2) img {
+  box-shadow: 0 0 1rem min(0.6vw, 0.2rem) #18ffd9;
+}
+
+.about-us__member:nth-child(3n) img {
+  box-shadow: 0 0 1rem min(0.6vw, 0.2rem) #fffb07b0;
+}
+
+.about-us__member p {
+  display: inline-block;
+  font-size: var(--font-size__text);
+  color: var(--color-text__home);
+  margin-left: min(3vw, 2rem);
+  margin-right: min(3vw, 2rem);
+  margin-bottom: min(3vw, 2rem);
+  margin-top: min(15vw, 2rem);
+}

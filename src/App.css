@@ -1,0 +1,13 @@
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__padding {
+  padding-top: min(10vw, 3rem);
+  padding-left: min(9vw, 5rem);
+  padding-right: min(9vw, 5rem);
+  padding-bottom: min(20vw, 5rem);
+}
